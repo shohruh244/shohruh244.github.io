@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roziqov Shohruh</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(45deg, #4caf50, #2196f3);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            animation: fadeInDown 2s;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            animation: fadeInUp 2s;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            background-color: #2196f3;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #4caf50;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #4caf50;
+            border-bottom: 3px solid #4caf50;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Roziqov Shohruh</h1>
+        <p>Data scientist</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is Roziqov Shohruh. I am a school student with a passion for learning and exploring new things. My interests include coding, literature, politics, technology, and studying abroad. You can also connect with me on my Telegram channel: <a href="https://t.me/Shohruh_Roziqov" target="_blank">Shohruh Roziqov</a>.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I have worked on:</p>
+            <img src="/mnt/data/photo.jpg" alt="Certificate">
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>IELTS Results: Overall Band 6.5 (Listening 8.5)</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch with me, please feel free to reach out via email at <a href="mailto:shohruxroziqov000@gmail.com">shohruxroziqov000@gmail.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Roziqov Shohruh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
